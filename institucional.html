@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Institucional</title>
+    <link rel="stylesheet" href="css/estilos.css" />
+</head>
+
+<body>
+    <header>
+        <div class="logo-titulo">
+            <img src="imagenes/logo.webp" alt="Logo del sitio" class="logo" />
+        </div>
+        <button class="menu-toggle" id="menuToggle">☰</button>
+        <nav>
+            <ul id="menuPrincipal">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="institucional.html">Institucional</a></li>
+                <li><a href="actividades.html">Actividades</a></li>
+                <li><a href="sedes.html">Sedes</a></li>
+                <li><a href="tienda.html">Tienda</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="historia" class="seccion-institucional">
+            <div class="container">
+                <h2 class="titulo-section">Nuestra Historia</h2>
+                <p class="descripcion-institucional">
+                    Los nativos de Galicia están en el ADN de la nación argentina. Hay
+                    orígenes gallegos en la mayor parte de las líneas que escriben la
+                    historia de la patria. Desde el Tercio de Gallegos, que defendió
+                    Buenos Aires de las invasiones inglesas, hasta los nietos de
+                    emigrantes que ocuparon en varias ocasiones la máxima representación
+                    de la Nación.
+                </p>
+                <!-- Carrusel de Imágenes -->
+                <div class="carrusel-container">
+                    <!-- Botones de navegación -->
+                    <button class="carrusel-btn carrusel-btn-prev" id="prevBtn">
+                        &lt;
+                    </button>
+                    <button class="carrusel-btn carrusel-btn-next" id="nextBtn">
+                        &gt;
+                    </button>
+
+                    <!-- Contenedor de las imágenes del carrusel -->
+                    <div class="carrusel-slide" id="carruselSlide">
+                        <div class="carrusel-item">
+                            <img src="imagenes/Nuñez.jpg" alt="Campo Olivos" class="carrusel-img" />
+                        </div>
+                        <div class="carrusel-item">
+                            <img src="imagenes/Social - presidente (2).jpg" alt="Sede Social" class="carrusel-img" />
+                        </div>
+                        <div class="carrusel-item">
+                            <img src="imagenes/Cultural - Social (3).jpg" alt="Salón Hostelería" class="carrusel-img" />
+                        </div>
+                        <div class="carrusel-item">
+                            <img src="imagenes/entrada.jfif" alt="Mesas comunitarias Olivos" class="carrusel-img" />
+                        </div>
+                        <div class="carrusel-item">
+                            <img src="imagenes/cultural - social (4).jpg" alt="Colonia" class="carrusel-img" />
+                        </div>
+                        <div class="carrusel-item">
+                            <img src="imagenes/Social - presidente.jpg" alt="Pileta del Campo Galicia"
+                                class="carrusel-img" />
+                        </div>
+                    </div>
+
+                    <!-- Indicadores (puntitos) -->
+                    <div class="carrusel-indicadores" id="indicadores"></div>
+                </div>
+
+                <!-- Modal para ver imagen ampliada -->
+                <div id="imagenModal" class="modal">
+                    <span class="cerrar-modal">&times;</span>
+                    <img class="modal-contenido" id="imagenAmpliada" />
+                    <div id="modalCaption"></div>
+                </div>
+                <p class="descripcion-institucional">
+                    En la cultura popular, nuestro gentilicio se convirtió en el nombre que designa a los oriundos de
+                    todos los pueblos españoles. Los gallegos representan el 60% de todos los ciudadanos españoles que
+                    recalaron en la geografía argentina en la búsqueda de un futuro más próspero y son sinónimo de
+                    honradez, cultura del trabajo y mágica sensibilidad artística.
+                </p>
+            </div>
+        </section>
+        <section id="tradicion" class="seccion-institucional">
+            <div class="container">
+                <h2 class="titulo-section">Una Institución Joven y con Tradición</h2>
+                <p class="descripcion-institucional">
+                    El Centro Galicia de Buenos Aires nació el 25 de julio de 1979 para proyectar nuestra identidad, a
+                    través de nuestros descendientes, en las generaciones futuras y preservar los valores fundamentales
+                    de las culturas de Argentina, Galicia y España.
+                </p>
+                <p class="descripcion-institucional">
+                    Somos una asociación civil sin fines de lucro surgida de la valiente decisión de un grupo de
+                    dirigentes que supo ver en la fusión de la Asociación Gallega de Buenos Aires (Centros Coruñés y
+                    Pontevedrés), el Centro Lucense y el Centro Orensano, el futuro próspero que hoy transitamos.
+                    Nuestra entidad nació con la consigna fundamental de unir los esfuerzos de la colectividad gallega
+                    en Argentina para sumar a un país que nos abrió sus brazos y con el que crecemos día a día.
+                </p>
+                <strong class="descripcion-institucional">
+                    Es un proyecto joven que avanza defendiendo el legado de un pueblo milenario.
+                </strong>
+            </div>
+        </section>
+        <section id="organismos" class="seccion-institucional">
+            <div class="container">
+                <h2 class="titulo-section">Organismos de Gobierno</h2>
+                <p class="descripcion-institucional">
+                    El Centro Galicia de Buenos Aires, asociación civil sin fines de lucro, fue creado el 25 de julio de
+                    1979, gracias a la valiente decisión de fusionarse de un significativo grupo de dirigentes gallegos
+                    y descendientes de gallegos, apoyados por los asociados de las cuatro entidades representativas,
+                    hasta ese momento, de las provincias gallegas, como fueron los Centros Coruñés, Lucense, Orensano y
+                    Pontevedrés, cada uno de los cuales nucleaba desde hacía décadas a una buena parte de la inmigración
+                    de estos orígenes. Es decir, nuestra entidad nació con la consigna fundamental de unir aquellos
+                    esfuerzos propagados dentro de la Comunidad Gallega, elaborando un proyecto común de crecimiento,
+                    defendiendo los valores e identidad de origen.
+                </p>
+                <p class="descripcion-institucional">
+                    Nuestro Estatuto Social recoge los objetivos y alcances de nuestra Institución, que se practican en
+                    nuestro quehacer diario, destacando la defensa de la idiosincrasia gallega; la enseñanza de las
+                    costumbres e historia de España y Galicia; el cultivo del espíritu de la solidaridad y el trabajo
+                    comunitario, como modo de evolución societaria, sin dejar de lado la historia y el respeto por todo
+                    lo que representa la Argentina, tierra y pueblo que cobijó a tantos miles de inmigrantes gallegos.
+                    Este conjunto valorativo ya primaba en las sociedades que dieron nacimiento al Centro Galicia de
+                    Buenos Aires.
+                </p>
+            </div>
+        </section>
+
+        <!-- Banner Pequeño -->
+        <section class="banner-pequeno">
+            <img src="imagenes/back-counter.jpg" alt="Fondo del banner" class="banner-pequeno-img">
+            <div class="banner-pequeno-overlay">
+                <h2 class="banner-pequeno-texto">Saludos y Felicitaciones a la Institución</h2>
+            </div>
+        </section>
+
+        <!-- Sección de Videos de YouTube -->
+        <section id="videos-youtube" class="seccion-videos">
+            <div class="container">
+                <div class="galeria-videos">
+                    <!-- Video 1 -->
+                    <div class="video-item" data-youtube-id="mzoZyURJ3YE">
+                        <img src="https://img.youtube.com/vi/mzoZyURJ3YE/hqdefault.jpg"
+                            alt="Presidente del Centro Galicia de Buenos Aires" class="video-miniatura">
+                        <div class="play-overlay"><span class="play-icon">&#9658;</span></div>
+                        <h3 class="video-titulo">Presidente del Centro Galicia de Buenos Aires</h3>
+                    </div>
+
+                    <!-- Video 2 -->
+                    <div class="video-item" data-youtube-id="e3_z19iPdXQ">
+                        <img src="https://img.youtube.com/vi/e3_z19iPdXQ/hqdefault.jpg"
+                            alt="Presidente Alberto Fernández" class="video-miniatura">
+                        <div class="play-overlay"><span class="play-icon">&#9658;</span></div>
+                        <h3 class="video-titulo">Presidente Alberto Fernández</h3>
+                    </div>
+
+                    <!-- Video 3 -->
+                    <div class="video-item" data-youtube-id="Mroc7XYQ_jY">
+                        <img src="https://img.youtube.com/vi/Mroc7XYQ_jY/hqdefault.jpg"
+                            alt="Secretaria de Estado de Migraciones del Gobierno de España" class="video-miniatura">
+                        <div class="play-overlay"><span class="play-icon">&#9658;</span></div>
+                        <h3 class="video-titulo">Secretaria de Estado de Migraciones del Gobierno de España</h3>
+                    </div>
+
+                    <!-- Video 4 -->
+                    <div class="video-item" data-youtube-id="4JtxV9bzIXo">
+                        <img src="https://img.youtube.com/vi/4JtxV9bzIXo/hqdefault.jpg"
+                            alt="Conselleiro de Cultura y Turismo de la Xunta de Galicia" class="video-miniatura">
+                        <div class="play-overlay"><span class="play-icon">&#9658;</span></div>
+                        <h3 class="video-titulo">Conselleiro de Cultura y Turismo de la Xunta de Galicia</h3>
+                    </div>
+
+                    <!-- Video 5 -->
+                    <div class="video-item" data-youtube-id="RHXmlBOOY8o">
+                        <img src="https://img.youtube.com/vi/RHXmlBOOY8o/hqdefault.jpg"
+                            alt="Intendente de la Municipalidad de Vicente López" class="video-miniatura">
+                        <div class="play-overlay"><span class="play-icon">&#9658;</span></div>
+                        <h3 class="video-titulo">Intendente de la Municipalidad de Vicente López</h3>
+                    </div>
+
+                    <!-- Video 6 -->
+                    <div class="video-item" data-youtube-id="HOE0FfG7rx0">
+                        <img src="https://img.youtube.com/vi/HOE0FfG7rx0/hqdefault.jpg"
+                            alt="Presidente de la Real Academia Galega" class="video-miniatura">
+                        <div class="play-overlay"><span class="play-icon">&#9658;</span></div>
+                        <h3 class="video-titulo">Presidente de la Real Academia Galega</h3>
+                    </div>
+
+                    <!-- Video 7 -->
+                    <div class="video-item" data-youtube-id="zRTQjEUJaho">
+                        <img src="https://img.youtube.com/vi/zRTQjEUJaho/hqdefault.jpg"
+                            alt="Jefe de Gobierno de la Ciudad Autónoma de Buenos Aires" class="video-miniatura">
+                        <div class="play-overlay"><span class="play-icon">&#9658;</span></div>
+                        <h3 class="video-titulo">Jefe de Gobierno de la Ciudad Autónoma de Buenos Aires</h3>
+                    </div>
+
+                    <!-- Video 8 -->
+                    <div class="video-item" data-youtube-id="TAsVgTwXOJM">
+                        <img src="https://img.youtube.com/vi/TAsVgTwXOJM/hqdefault.jpg"
+                            alt="Consejero de Trabajo, Migraciones y Seguridad Social" class="video-miniatura">
+                        <div class="play-overlay"><span class="play-icon">&#9658;</span></div>
+                        <h3 class="video-titulo">Consejero de Trabajo, Migraciones y Seguridad Social</h3>
+                    </div>
+
+                    <!-- Video 9 -->
+                    <div class="video-item" data-youtube-id="WQVDl9f_38A">
+                        <img src="https://img.youtube.com/vi/WQVDl9f_38A/hqdefault.jpg"
+                            alt="Presidente Consejo de Administración Fundación Galicia-América"
+                            class="video-miniatura">
+                        <div class="play-overlay"><span class="play-icon">&#9658;</span></div>
+                        <h3 class="video-titulo">Presidente Consejo de Administración Fundación Galicia-América</h3>
+                    </div>
+
+
+                    <!-- Agrega más videos aquí siguiendo el mismo formato -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Modal para reproducir video de YouTube -->
+        <div id="videoModal" class="modal-video">
+            <div class="modal-video-contenido">
+                <span class="cerrar-modal-video">&times;</span>
+                <div id="youtubePlayer"></div>
+            </div>
+        </div>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-contenido">
+            <!-- Sede Social -->
+            <div class="footer-columna izquierda">
+                <h2>Sede Social</h2>
+                <p>
+                    <strong>Dirección:</strong><br />
+                    Bartolomé Mitre 2552, CABA
+                </p>
+                <p>
+                    <strong>Teléfonos:</strong><br />
+                    <a class="footer-links" href="tel:+54949528858">4952-8858</a> /
+                    <a class="footer-links" href="tel:+54949524468">4952-4468</a>
+                </p>
+            </div>
+            <!-- Campo Galicia -->
+            <div class="footer-columna derecha">
+                <h2>Campo Galicia</h2>
+                <p>
+                    <strong>Dirección:</strong><br />
+                    Av. Del Libertador 2925, Olivos
+                </p>
+                <p>
+                    <strong>Teléfonos:</strong><br />
+                    <a class="footer-links" href="tel:+54947997750">4799-7750</a> /
+                    <a class="footer-links" href="tel:+54947947953">4794-7953</a>
+                </p>
+            </div>
+        </div>
+        <!-- Mail -->
+        <div class="footer-email">
+            <a href="mailto:info@centrogalicia-bsas.org" class="correo-footer">info@centrogalicia-bsas.org</a>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>

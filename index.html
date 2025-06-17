@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Centro Galicia de Buenos Aires</title>
+  <link rel="stylesheet" href="css/estilos.css" />
+</head>
+
+<body>
+  <header>
+    <div class="logo-titulo">
+      <img src="imagenes/logo.webp" alt="Logo del sitio" class="logo" />
+    </div>
+    <button class="menu-toggle" id="menuToggle">☰</button>
+    <nav>
+      <ul id="menuPrincipal">
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="institucional.html">Institucional</a></li>
+        <li><a href="actividades.html">Actividades</a></li>
+        <li><a href="sedes.html">Sedes</a></li>
+        <li><a href="tienda.html">Tienda</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Banner con imagen, título y subtítulo -->
+    <section id="inicio" class="banner">
+      <img src="/imagenes/header-home.jpg" alt="Banner" class="banner-img" />
+      <div class="banner-overlay">
+        <h2 class="banner-title">Centro Galicia de Buenos Aires</h2>
+        <p class="banner-subtitle">
+          Cultura, valores y actividades al servicio de la comunidad
+        </p>
+      </div>
+    </section>
+
+    <section class="seccion-tabs">
+      <div class="container">
+        <h2 class="titulo-section">Nuestros Valores</h2>
+        <!-- Sistema de Pestañas -->
+        <div class="tabs-container">
+          <!-- Navegación de Pestañas -->
+          <div class="tabs-nav">
+            <button class="tab-btn active" data-tab="tab1">Familia</button>
+            <button class="tab-btn" data-tab="tab2">Crecimiento</button>
+            <button class="tab-btn" data-tab="tab3">Comunidad</button>
+            <button class="tab-btn" data-tab="tab4">Esfuerzo</button>
+            <button class="tab-btn" data-tab="tab5">Cultura</button>
+          </div>
+
+          <!-- Contenido de Pestañas -->
+          <div class="tabs-content">
+            <div id="tab1" class="tab-pane active">
+              <h3>Familia</h3>
+              <p>
+                En el Centro Galicia de Buenos Aires, la familia es el corazón de nuestro accionar. Honramos el legado
+                de un pueblo milenario, fomentando la unión y el apoyo mutuo entre generaciones, tal como la tradición
+                gallega y española nos ha inculcado. Somos una entidad de familias, donde cada miembro aporta su
+                esfuerzo desinteresado y cariño para el crecimiento y desarrollo de esta gran comunidad.
+              </p>
+            </div>
+            <div id="tab2" class="tab-pane">
+              <h3>Crecimiento</h3>
+              <p>
+                Nuestro Centro Galicia de Buenos Aires simboliza un proyecto joven que avanza defendiendo el legado de
+                un pueblo milenario. No solo promovemos el desarrollo sostenido y sustentable de nuestra entidad, sino
+                también el enriquecimiento interior de cada persona y la perdurabilidad de nuestras ricas tradiciones,
+                construyendo un futuro próspero que se refleja en nuestros logros y nuestra sólida estructura.
+              </p>
+            </div>
+            <div id="tab3" class="tab-pane">
+              <h3>Comunidad</h3>
+              <p>
+                Nacimos de la fusión de cuatro centros representativos de las provincias gallegas, creando una auténtica
+                comunidad que sirve de vínculo y comunión con la tierra gallega. En el Centro Galicia de Buenos Aires,
+                valoramos el espíritu asociativo y solidario, integrando al ser nacional argentino y estando totalmente
+                abiertos a la comunidad de la que nos nutrimos.
+            </div>
+            <div id="tab4" class="tab-pane">
+              <h3>Esfuerzo</h3>
+              <p>
+                El Centro Galicia de Buenos Aires se erige sobre el esfuerzo y la tenacidad de una colectividad
+                trabajadora, capaz de superar los mayores obstáculos. Este valor fundamental, heredado de nuestros
+                fundadores, nos impulsa a seguir siendo una Entidad modelo, familiar, unida y solidaria, donde el
+                trabajo conjunto permite el desarrollo y el éxito de cada proyecto.
+              </p>
+            </div>
+            <div id="tab5" class="tab-pane">
+              <h3>Cultura</h3>
+              <p>
+                La cultura es un pilar fundamental en el Centro Galicia de Buenos Aires. Preservamos nuestra identidad a
+                través de la promoción de la danza, el folclore, la música y el teatro, así como nuestra biblioteca y
+                galería de arte. Mantenemos viva la rica herencia gallega, compartiéndola y enriqueciendo el ámbito
+                cultural de Buenos Aires.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sección de Galería/Carrusel -->
+    <section id="galeria" class="seccion-galeria">
+      <div class="container">
+        <h2 class="titulo-section">Nuestras instalaciones</h2>
+
+        <!-- Carrusel de Imágenes -->
+        <div class="carrusel-container">
+          <!-- Botones de navegación -->
+          <button class="carrusel-btn carrusel-btn-prev" id="prevBtn">
+            &lt;
+          </button>
+          <button class="carrusel-btn carrusel-btn-next" id="nextBtn">
+            &gt;
+          </button>
+
+          <!-- Contenedor de las imágenes del carrusel -->
+          <div class="carrusel-slide" id="carruselSlide">
+            <div class="carrusel-item">
+              <img src="imagenes/Inicio 1.jpeg" alt="Campo Olivos" class="carrusel-img" />
+            </div>
+            <div class="carrusel-item">
+              <img src="imagenes/Inicio 2.jpeg" alt="Sede Social" class="carrusel-img" />
+            </div>
+            <div class="carrusel-item">
+              <img src="imagenes/inicio 3.jpg" alt="Salón Hostelería" class="carrusel-img" />
+            </div>
+            <div class="carrusel-item">
+              <img src="imagenes/Olivos.jpg" alt="Mesas comunitarias Olivos" class="carrusel-img" />
+            </div>
+            <div class="carrusel-item">
+              <img src="imagenes/Colonia 2.jpg" alt="Colonia" class="carrusel-img" />
+            </div>
+            <div class="carrusel-item">
+              <img src="imagenes/pileta (4) - Olivos.jpg" alt="Pileta del Campo Galicia" class="carrusel-img" />
+            </div>
+          </div>
+
+          <!-- Indicadores (puntitos) -->
+          <div class="carrusel-indicadores" id="indicadores"></div>
+        </div>
+
+        <!-- Modal para ver imagen ampliada -->
+        <div id="imagenModal" class="modal">
+          <span class="cerrar-modal">&times;</span>
+          <img class="modal-contenido" id="imagenAmpliada" />
+          <div id="modalCaption"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sección de Actividades -->
+    <section id="actividades" class="seccion-actividades">
+      <div class="container">
+        <h2 class="titulo-section">Cuáles son nuestras Actividades</h2>
+
+        <div class="actividades-grid">
+          <!-- Actividad Cultural -->
+          <div class="actividad-card">
+            <h3 class="actividad-titulo">Culturales</h3>
+            <div class="actividad-imagen-container">
+              <img src="imagenes/Cultural-1.png" alt="Actividades Culturales" class="actividad-imagen" />
+            </div>
+            <p class="actividad-descripcion">
+              Encuentros con comunidades amigas, festivales, ferias, visitas a
+              instituciones, sociedades y más.
+            </p>
+          </div>
+
+          <!-- Actividad Social -->
+          <div class="actividad-card">
+            <h3 class="actividad-titulo">Sociales</h3>
+            <div class="actividad-imagen-container">
+              <img src="imagenes/Sociales-1.png" alt="Actividades Sociales" class="actividad-imagen" />
+            </div>
+            <p class="actividad-descripcion">
+              Eventos de teatro, danza y clubes en donde se vean reflejados
+              nuestra historia y valores que nos identifican.
+            </p>
+          </div>
+
+          <!-- Actividad Deportiva -->
+          <div class="actividad-card">
+            <h3 class="actividad-titulo">Deportivas</h3>
+            <div class="actividad-imagen-container">
+              <img src="imagenes/Deportivas-3.png" alt="Actividades Deportivas" class="actividad-imagen" />
+            </div>
+            <p class="actividad-descripcion">
+              Basquet, Volley, Gimnasio, Futbol y más de 20 disciplinas
+              deportivas distribuidas entre la sede social y el campo
+              deportivo.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sección de Nuestras Sedes -->
+    <section id="sedes" class="seccion-sedes">
+      <!-- Imagen de fondo -->
+      <img src="imagenes/back-counter.jpg" alt="Fondo de nuestras sedes" class="fondo-imagen" />
+      <div class="contenido-overlay">
+        <p class="banner-descripcion">
+          "Más de 50.000 mts cuadrados ocupan nuestras dos sedes en el Centro
+          Porteño y Campo de Olivos"
+        </p>
+        <h2 class="banner-title">Nuestras Sedes</h2>
+        <h3 class="subtitulo">Centro Galicia de Buenos Aires</h3>
+        <a href="sedes.html" class="boton">SEDES</a>
+      </div>
+    </section>
+
+    <!-- Sección de Formulario -->
+    <section id="contacto" class="seccion-contacto">
+      <div class="container">
+        <h2 class="titulo-section">Estamos en contacto</h2>
+        <p class="descripcion-contacto">
+          Por favor, introduce tus datos y te responderemos tan pronto como sea posible.
+        </p>
+
+        <form action="https://formspree.io/f/xdkzekyn" method="POST" id="formulario-contacto" class="formulario">
+          <div class="form-grupo">
+            <label for="nombre">Nombre y Apellido</label>
+            <input type="text" id="nombre" name="nombre" required />
+          </div>
+          <div class="form-grupo">
+            <label for="telefono">Teléfono</label>
+            <input type="tel" id="telefono" name="telefono" required />
+          </div>
+          <div class="form-grupo">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required />
+          </div>
+          <div class="form-grupo">
+            <label for="mensaje">Mensaje</label>
+            <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
+          </div>
+          <button type="submit" class="btn-enviar">ENVIAR</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-contenido">
+      <!-- Sede Social -->
+      <div class="footer-columna izquierda">
+        <h2>Sede Social</h2>
+        <p><strong>Dirección:</strong><br>
+          Bartolomé Mitre 2552, CABA</p>
+        <p><strong>Teléfonos:</strong><br>
+          <a class="footer-links" href="tel:+54949528858">4952-8858</a> /
+          <a class="footer-links" href="tel:+54949524468">4952-4468</a>
+        </p>
+      </div>
+      <!-- Campo Galicia -->
+      <div class="footer-columna derecha">
+        <h2>Campo Galicia</h2>
+        <p><strong>Dirección:</strong><br>
+          Av. Del Libertador 2925, Olivos</p>
+        <p><strong>Teléfonos:</strong><br>
+          <a class="footer-links" href="tel:+54947997750">4799-7750</a> /
+          <a class="footer-links" href="tel:+54947947953">4794-7953</a>
+        </p>
+      </div>
+    </div>
+    <!-- Mail -->
+    <div class="footer-email">
+      <a href="mailto:info@centrogalicia-bsas.org" class="correo-footer">info@centrogalicia-bsas.org</a>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+
+</html>
